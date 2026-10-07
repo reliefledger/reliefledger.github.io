@@ -1,0 +1,65 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:06.005
+Every open post starts with a decision. Who should be called next—and why?
+
+2
+00:00:06.005 --> 00:00:07.310
+This is ReliefLedger.
+
+3
+00:00:08.310 --> 00:00:11.009
+Start with a clear view of the workspace.
+
+4
+00:00:11.009 --> 00:00:15.395
+Here, three fictional officers and one open block give us a simple example
+
+5
+00:00:15.395 --> 00:00:16.070
+to follow.
+
+6
+00:00:17.070 --> 00:00:21.103
+Open the roster to review the people behind the call list.
+
+7
+00:00:21.103 --> 00:00:25.870
+Availability and overtime balances give the supervisor useful context before making a decision.
+
+8
+00:00:26.870 --> 00:00:30.440
+Next, select the open block and request an evaluation.
+
+9
+00:00:30.440 --> 00:00:35.597
+ReliefLedger returns an ordered recommendation from the service, using the rules configured for
+
+10
+00:00:35.597 --> 00:00:36.390
+this demonstration.
+
+11
+00:00:37.390 --> 00:00:40.775
+The result puts Jordan first, followed by Avery and Morgan.
+
+12
+00:00:40.775 --> 00:00:45.175
+The reasons stay alongside the recommendation, so the supervisor can review the order
+
+13
+00:00:45.175 --> 00:00:46.190
+rather than guess.
+
+14
+00:00:47.190 --> 00:00:53.274
+The supervisor stays in control. This walkthrough uses fictional records and example rules;
+
+15
+00:00:53.274 --> 00:00:56.550
+each facility’s policy is agreed before installation.
+
+16
+00:00:57.550 --> 00:01:04.590
+ReliefLedger. Clarity for every overtime decision. Talk with us about your facility’s workflow.
