@@ -16,3 +16,7 @@
 .demo-note{max-width:760px;margin-top:17px}
 .demo-actions{margin-top:23px}
 @media(max-width:760px){.demo-section{padding-top:58px;padding-bottom:60px}.demo-heading h2{font-size:34px}.demo-media{margin-top:21px;border-radius:7px}.demo-actions .button{width:100%;max-width:390px;justify-content:space-between}}
+
+/* The fictional example makes the 30/12/4/1 counts legible at narrow widths. */
+.example-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 15px}.example-stats span{background:#f4f7f5;padding:10px 12px;border-radius:3px;font-size:10px;color:var(--muted)}.example-stats strong{display:block;color:var(--navy);font:650 19px/1.2 var(--heading);font-variant-numeric:tabular-nums}.hero-visual .officer{padding:10px 0}.hero-visual .officer small{max-width:190px}.hero-visual .reason{font-size:9px}
+@media(max-width:420px){.example-stats{gap:6px}.example-stats span{padding:8px 7px;font-size:9px}.example-stats strong{font-size:17px}.hero-visual{padding:17px}.hero-visual .officer{gap:9px}.hero-visual .reason{padding:3px 5px}}
