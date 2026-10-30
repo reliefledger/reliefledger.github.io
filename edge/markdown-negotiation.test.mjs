@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import { handle, prefersMarkdown } from "./markdown-negotiation.mjs";
+import { handle, prefersMarkdown, safeHandle } from "./markdown-negotiation.mjs";
 
 const root = new URL("../", import.meta.url);
 
@@ -75,4 +75,16 @@ test("non-page files pass through untouched", async () => {
   const res = await get("/llms.txt", "text/markdown");
   assert.equal(res.status, 200);
   assert.equal(res.headers.get("Vary"), "Accept-Encoding");
+});
+
+test("errors in negotiation fall back to the origin", async () => {
+  let calls = 0;
+  const flaky = async (request) => {
+    calls += 1;
+    if (calls === 1) throw new Error("origin hiccup");
+    return origin(request);
+  };
+  const res = await safeHandle(new Request("https://reliefledger.pro/", { headers: { Accept: "text/markdown" } }), flaky);
+  assert.equal(res.status, 200);
+  assert.equal(calls, 2);
 });
