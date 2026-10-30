@@ -76,8 +76,17 @@ export async function handle(request, fetchImpl = fetch) {
   return page || res.status === 404 ? withVary(res) : res;
 }
 
+// Fail open: any error in negotiation falls back to the origin unchanged.
+export async function safeHandle(request, fetchImpl = fetch) {
+  try {
+    return await handle(request.clone(), fetchImpl);
+  } catch {
+    return fetchImpl(request);
+  }
+}
+
 export default {
   fetch(request) {
-    return handle(request);
+    return safeHandle(request);
   },
 };

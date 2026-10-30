@@ -1,0 +1,5 @@
+# Non-secret settings only. This repository is public and GitHub Pages
+# serves every file, so the Cloudflare API token never goes here: export
+# CLOUDFLARE_API_TOKEN in your own shell when running pulumi.
+config:
+  reliefledger-site:zoneName: reliefledger.pro
