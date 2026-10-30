@@ -24,3 +24,10 @@
 /* Who it’s for: word labels instead of step numbers. */
 #fit .step-number{letter-spacing:.08em}
 @media(max-width:760px){#fit .steps article{padding-left:0}#fit .step-number{position:static;display:block;margin-bottom:8px}}
+
+/* About: company details as label/value rows. */
+.document dl{display:grid;grid-template-columns:max-content 1fr;gap:10px 28px;margin:18px 0 28px;padding:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.document dt{font-weight:600;color:var(--navy)}
+.document dd{margin:0;color:var(--muted);min-width:0;overflow-wrap:anywhere}
+.document dd a,.document li a{color:var(--teal)}
+@media(max-width:520px){.document dl{grid-template-columns:1fr;gap:2px}.document dd{margin-bottom:10px}}
