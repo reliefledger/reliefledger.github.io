@@ -20,3 +20,7 @@
 /* The fictional example makes the 30/12/4/1 counts legible at narrow widths. */
 .example-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 15px}.example-stats span{background:#f4f7f5;padding:10px 12px;border-radius:3px;font-size:10px;color:var(--muted)}.example-stats strong{display:block;color:var(--navy);font:650 19px/1.2 var(--heading);font-variant-numeric:tabular-nums}.hero-visual .officer{padding:10px 0}.hero-visual .officer small{max-width:190px}.hero-visual .reason{font-size:9px}
 @media(max-width:420px){.example-stats{gap:6px}.example-stats span{padding:8px 7px;font-size:9px}.example-stats strong{font-size:17px}.hero-visual{padding:17px}.hero-visual .officer{gap:9px}.hero-visual .reason{padding:3px 5px}}
+
+/* Who it’s for: word labels instead of step numbers. */
+#fit .step-number{letter-spacing:.08em}
+@media(max-width:760px){#fit .steps article{padding-left:0}#fit .step-number{position:static;display:block;margin-bottom:8px}}

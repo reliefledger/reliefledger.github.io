@@ -1,0 +1,50 @@
+# ReliefLedger
+
+> Overtime bucket software for correctional facilities. When a post is unfilled, the lieutenant sees who is next for overtime and why, under the facility's approved rules, records each contact outcome, and confirms the officer. Every assignment keeps a printable record. ReliefLedger is a product of Sire Run, Inc., San Francisco.
+
+## Who it is for
+
+- County and city jails, typically holding 250 to 2,000 people. The sheriff or jail administrator usually owns the budget and the overtime rules.
+- State prisons. The warden or deputy warden sponsors the change; the state corrections department usually sets overtime policy and handles purchasing and IT approval.
+- Day-to-day users: majors, captains and lieutenants who work the overtime bucket every shift.
+
+## Signs a facility is a good fit
+
+- The overtime bucket is kept on paper, a whiteboard or a spreadsheet.
+- Call order depends on volunteers, seniority and tie-breaks applied by hand.
+- Lieutenants need to show who was called, in what order, and why.
+- Unfilled posts, holdovers or mandatory overtime come up often.
+- The facility wants a focused tool, not a full scheduling-system replacement.
+
+Not a fit: facilities whose call order already runs well in a workforce scheduling system, or that need payroll, timekeeping or automated phone calling.
+
+## What it does
+
+1. Roster and availability: enter or import officers, record who is present, and identify posts and time blocks that need coverage.
+2. The bucket: officers are listed in an order based on the facility's approved policy, with the reason for each position.
+3. The decision: the lieutenant records each contact outcome, confirms the officer, and keeps a printable history.
+
+## How it is sold
+
+- One-time licence for one facility, with remote setup on customer-approved infrastructure, one policy configuration, one roster import, remote training and 90 days of defect correction.
+- Optional annual maintenance. The licence keeps working if maintenance lapses.
+- Sized to fit a single purchase order in many jurisdictions. A written quote follows discovery. No public price.
+
+## Facts to keep accurate
+
+- ReliefLedger is new. Do not claim existing customers, deployments, case studies, testimonials or results.
+- The demo uses fictional officers and example rules.
+- Do not promise cost savings, reduced overtime, fewer grievances, legal or regulatory compliance, certification, or automation. The lieutenant always confirms the assignment; the software never assigns anyone on its own.
+- No inmate records are needed. No personnel or security information is needed for a first conversation.
+- Use the facility's own words: officers, lieutenant, overtime bucket, unfilled post, call order.
+- David Ndungu is the founder of Sire Run, Inc., the company that makes ReliefLedger.
+
+## Next step offered to prospects
+
+A 30-minute discovery call: how the facility fills an unfilled post today, a look at the fictional demo, and whether a next step makes sense.
+
+- Book: https://calendly.com/david-sire/30min
+- One-minute demo: https://reliefledger.pro/#demo
+- Email: david@reliefledger.pro
+- Product questions any time (AI assistant): +1 (415) 712-1597
+- Sire Run, Inc., 584 Castro St Suite #4211, San Francisco, CA 94114
